@@ -16,17 +16,23 @@ public class Enterprise {
 
     // Constructor.
     public Enterprise(String idCard, String name, int type, String activity, IBAN iban, LoanRequest loanRequest) throws Exception {
-
+        
+        // this.idCard
         this.idCard = idCard;
-
+        
+        // this.name
         this.name = name;
-
+        
+        // this.type
         this.setType(type);
-
+        
+        // this.activity
         this.activity = activity;
-
+        
+        // this.iban
         this.iban = iban;
-
+        
+        // this.loanRequest
         this.loanRequest = loanRequest;
     }
 
