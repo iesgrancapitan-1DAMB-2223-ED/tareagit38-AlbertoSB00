@@ -27,7 +27,7 @@ public class Enterprise {
         this.setType(type);
 
         // this.activity
-        this.activity = activity;
+        this.activity = activiti;
 
         // this.iban
         this.iban = iban;
